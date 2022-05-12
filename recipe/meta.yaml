@@ -1,14 +1,15 @@
 {% set name = "anaconda-clean" %}
 {% set version = "1.1.0" %}
 {% set build_number = "2" %}
+{% set checksum = "595adf8cb14535c229ca90abf9606b37e14434bcc7d34b6097f44730a23b201b"}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  git_url: https://github.com/ContinuumIO/anaconda-clean
-  git_tag: {{ version }}
+  url: https://github.com/AnacondaRecipes/anaconda-clean-feedstock/archive/refs/tags/{{ version }}.zip
+  sha256: {{ checksum }}
 
 build:
   number: {{ build_number }}
