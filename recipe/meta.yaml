@@ -1,7 +1,7 @@
 {% set name = "anaconda-clean" %}
 {% set version = "1.1.0" %}
 {% set build_number = "2" %}
-{% set checksum = "595adf8cb14535c229ca90abf9606b37e14434bcc7d34b6097f44730a23b201b"}
+{% set checksum = "595adf8cb14535c229ca90abf9606b37e14434bcc7d34b6097f44730a23b201b" %}
 
 package:
   name: {{ name|lower }}
