@@ -38,7 +38,7 @@ about:
   summary: Delete Anaconda configuration files
   description: |
     anaconda-clean removes configuration files and directories from Anaconda and its programs.
-  doc_url: https://docs.continuum.io/anaconda/install
+  doc_url: https://github.com/ContinuumIO/anaconda-clean
   doc_source_url: https://github.com/ContinuumIO/anaconda-clean/blob/master/README.md
   dev_url: https://github.com/ContinuumIO/anaconda-clean
 
